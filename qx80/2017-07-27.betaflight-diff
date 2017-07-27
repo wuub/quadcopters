@@ -1,0 +1,36 @@
+# Betaflight / SPRACINGF3EVO 3.1.7 Apr  3 2017 / 22:28:08 (e1c4b5c)
+
+feature -TELEMETRY
+feature -CURRENT_METER
+feature -BLACKBOX
+feature -TRANSPONDER
+feature -SDCARD
+feature MOTOR_STOP
+map TAER1234
+serial 0 1 115200 57600 0 115200
+aux 0 0 0 1575 1975
+aux 1 28 1 1025 1425
+aux 2 1 1 1625 2025
+rxrange 0 1167 1842
+rxrange 1 1167 1837
+rxrange 2 1163 1837
+rxrange 3 1150 1824
+set use_unsynced_pwm = OFF
+set vbat_min_cell_voltage = 32
+set vbat_warning_cell_voltage = 33
+set deadband = 10
+set acc_trim_pitch = -2
+profile 0
+
+set p_pitch = 80
+set i_pitch = 30
+set d_pitch = 44
+set p_roll = 80
+set i_roll = 30
+set d_roll = 44
+set p_yaw = 185
+rateprofile 0
+rateprofile 0
+
+set rc_rate = 80
+set rc_rate_yaw = 80
