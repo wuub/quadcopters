@@ -1,0 +1,30 @@
+
+# diff
+# Betaflight / SPRACINGF3EVO 3.1.7 Apr  3 2017 / 22:28:08 (e1c4b5c)
+name micro-frame-ht
+
+feature -TELEMETRY
+feature -CURRENT_METER
+feature -RSSI_ADC
+feature -BLACKBOX
+feature -TRANSPONDER
+feature -SDCARD
+feature MOTOR_STOP
+feature AIRMODE
+map TAER1234
+aux 0 0 0 1625 2025
+aux 1 1 1 900 1300
+aux 2 13 1 1700 2100
+rxrange 0 1150 1825
+rxrange 1 1150 1825
+rxrange 2 1150 1825
+rxrange 3 1150 1825
+set min_throttle = 1060
+set deadband = 5
+set failsafe_delay = 5
+set rx_min_usec = 950
+set pid_process_denom = 2
+profile 0
+
+rateprofile 0
+rateprofile 0
